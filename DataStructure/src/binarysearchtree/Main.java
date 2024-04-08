@@ -20,6 +20,7 @@ public class Main {
         System.out.println("Right left Child: "+ myBST.root.right.left.value);
         System.out.println("Right right Child: "+ myBST.root.right.right.value);
 
+        System.out.println(myBST.contains(17));
 
     }
 }
